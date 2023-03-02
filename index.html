@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Blogr</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+  <!-- header -->
+<header>
+  <!-- primary header -->
+  <section class="primary__header flex">
+
+    <div>
+      <img src="/images/logo.svg" alt="company-logo" class="logo">
+    </div>
+
+    <div class="menu__icon">
+      <img src="/images/icon-hamburger.svg" class="hamburger">
+      <img src="/images/icon-close.svg" class="hamburger inactive">
+    </div>
+
+
+    <!-- navbar -->
+    <nav class="inactive flex" id="navbar">
+
+      <div>
+        <ul class="flex">
+
+          <li class="menu-item">
+            <a href="#">Product 
+              <picture>
+                <source media="(min-width:45em)" srcset="/images/icon-arrow-light.svg" alt="" class="arrow">
+                <img src="/images/icon-arrow-dark.svg" alt="" class="arrow">
+            </picture>
+
+            <!-- dropdown -->
+            <div class="dropdown inactive">
+              <ul class="flex">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Integrations</a></li>
+              </ul>
+            </div>
+
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="#">Company
+              <picture>
+                <source media="(min-width:45em)" srcset="/images/icon-arrow-light.svg" alt="" class="arrow">
+                <img src="/images/icon-arrow-dark.svg" alt="" class="arrow">
+            </picture>
+
+            <!-- dropdown -->
+            <div class="dropdown inactive">
+              <ul class="flex">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="#">Connect
+              <picture>
+                <source media="(min-width:45em)" srcset="/images/icon-arrow-light.svg" alt="" class="arrow">
+                <img src="/images/icon-arrow-dark.svg" alt="" class="arrow">
+            </picture>
+
+            <!-- dropdown -->
+            <div class="dropdown inactive">
+              <ul class="flex">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div> 
+
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- button wrapper -->
+      <div class="btn-wrapper flex">
+        <button class="btn__1">Login</button>
+        <button class="btn__2">Signup</button>
+      </div>
+    </nav>
+
+  </section>
+
+
+  <!-- primary hero -->
+  <section class="primary__hero">
+
+    <div>
+      <h1 class="heading">A modern publishing platform</h1>
+      <p>Grow your audience and build your online brand</p>
+    </div>
+
+    <div class="btn-wrapper">
+        <button class="btn__3">start for Free</button>
+        <button class="btn__4">Learn More</button>
+      </div>
+  </section>
+</header>
+
+
+<!-- main -->
+<main>
+  
+  <section class="flex editor-section">
+    <h2 class="primary-heading">Designed for the future</h2>
+    <div class="picture">
+      <img src="/images/illustration-editor-mobile.svg" alt="" class="mobile">
+      <img src="/images/illustration-editor-desktop.svg" alt="" class="desktop">
+    </div>
+    <div class="flex write-up">
+      <article class="flex">
+        <h2 class="primary-heading">Introducing an extensible editor</h2>
+        <p class="article-paragraph">
+          Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.
+        </p>
+      </article>
+      <article class="flex">
+        <h2 class="primary-heading">Robust content management</h2>
+        <p class="article-paragraph">
+          Flexible content management enables users to easily move through posts. Increse the usability of your blog by adding customized categories, sections. formats, or flow. With this functionality you're in full control.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="flex laptop-section">
+    <div class="picture">
+      <img src="/images/illustration-laptop-mobile.svg" alt="" class="mobile">
+      <img src="/images/illustration-laptop-desktop.svg" alt="" class="desktop">
+    </div>
+
+    <div class="flex write-up">
+
+      <article class="flex">
+        <h2 class="primary-heading">Free, open, simple</h2>
+        <p class="article-paragraph">
+          Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlights, RSS feeds, social media integration tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+      </article>
+
+      <article class="flex">
+        <h2 class="primary-heading">Powerful tooling</h2>
+        <p class="article-paragraph">
+          Batteries included, We built a simple and straightforword CLI tool that amkes customization and deployment a breeze, but capable of producing even the most complicated sites.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- footer -->
+<footer>
+
+  <section class="flex">
+
+    <div class="sub-footer">
+      <img src="/images/logo.svg" alt="">
+    </div>
+
+    <div class="sub-footer flex">
+      <h4>Product</h4>
+      <ul class="flex">
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="sub-footer flex">
+      <h4>Company</h4>
+      <ul class="flex">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+
+    <div class="sub-footer flex">
+      <h4>Connect</h4>
+      <ul class="flex">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+    
+  </section>
+</footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
